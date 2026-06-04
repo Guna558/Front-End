@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9fa;
+}
+
+.header {
+    background: #343a40;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.course-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-warning {
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+/* Course Topics Page */
+
+.topic-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    height: 100%;
+    transition: 0.3s;
+}
+
+.topic-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.topic-card h4 {
+    color: #007bff;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.topic-card ul {
+    padding-left: 20px;
+}
+
+.topic-card li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+h2 {
+    color: #343a40;
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #2c3e50; /* single color */
+}
+
+h2 {
+    color: white;
+    font-weight: 700;
+}
+
+
+.topic-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.topic-card:hover {
+    transform: translateY(-8px);
+}
+
+.row > div {
+    display: flex;
+}
+
+
